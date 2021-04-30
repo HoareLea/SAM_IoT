@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1BFC8019-2271-4799-9DD2-CC9275A49D84}</ProjectGuid>
+    <ProjectGuid>{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAM.Analytical.TMP</RootNamespace>
-    <AssemblyName>SAM.Analytical.TMP</AssemblyName>
+    <RootNamespace>SAM.Analytical.IoT</RootNamespace>
+    <AssemblyName>SAM.Analytical.IoT</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>false</Deterministic>
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\build\SAM.Analytical.TMP.xml</DocumentationFile>
+    <DocumentationFile>..\..\build\SAM.Analytical.IoT.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -47,9 +47,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SAM.Core.TMP\SAM.Core.TMP.csproj">
+    <ProjectReference Include="..\SAM.Core.IoT\SAM.Core.IoT.csproj">
       <Project>{1c86b9ac-81b3-41d8-ba48-321f28ab94f4}</Project>
-      <Name>SAM.Core.GEM</Name>
+      <Name>SAM.Core.IoT</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

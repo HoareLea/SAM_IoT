@@ -2,7 +2,7 @@
 using System;
 using System.Drawing;
 
-namespace SAM.Core.Grasshopper.TMP
+namespace SAM.Core.Grasshopper.IoT
 {
     public class AssemblyInfo : GH_AssemblyInfo
     {
@@ -45,7 +45,7 @@ namespace SAM.Core.Grasshopper.TMP
         {
             get
             {
-                return new Guid("2ebace7b-7fe8-4a10-8534-64beaaad6454");
+                return new Guid("8d5ab19e-1976-45ef-93e0-791928c11679");
             }
         }
 

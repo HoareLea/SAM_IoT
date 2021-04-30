@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SAM_IoT", "SAM_IoT", "{4FDEDAD6-FCEC-4426-9A3B-086BF3C99CC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamo", "Dynamo", "{A81D37DE-E647-4EF9-84B4-478BFD860184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grasshopper", "Grasshopper", "{B365D5A7-F4F1-4C45-9565-5F6CFC1134A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.Analytical.Grasshopper.IoT", "Grasshopper\SAM.Analytical.Grasshopper.IoT\SAM.Analytical.Grasshopper.IoT.csproj", "{572C24BD-EBDD-4355-86D0-3872E4714DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.Core.Grasshopper.IoT", "Grasshopper\SAM.Core.Grasshopper.IoT\SAM.Core.Grasshopper.IoT.csproj", "{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.Analytical.IoT", "SAM_IoT\SAM.Analytical.IoT\SAM.Analytical.IoT.csproj", "{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.Core.IoT", "SAM_IoT\SAM.Core.IoT\SAM.Core.IoT.csproj", "{629DFABA-604D-4EE2-8089-4DF535B1DAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.Geometry.IoT", "SAM_IoT\SAM.Geometry.IoT\SAM.Geometry.IoT.csproj", "{AB62A6D6-F673-43B0-A1DE-A8AE6CF727D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572C24BD-EBDD-4355-86D0-3872E4714DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572C24BD-EBDD-4355-86D0-3872E4714DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572C24BD-EBDD-4355-86D0-3872E4714DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572C24BD-EBDD-4355-86D0-3872E4714DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629DFABA-604D-4EE2-8089-4DF535B1DAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629DFABA-604D-4EE2-8089-4DF535B1DAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629DFABA-604D-4EE2-8089-4DF535B1DAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629DFABA-604D-4EE2-8089-4DF535B1DAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB62A6D6-F673-43B0-A1DE-A8AE6CF727D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB62A6D6-F673-43B0-A1DE-A8AE6CF727D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB62A6D6-F673-43B0-A1DE-A8AE6CF727D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB62A6D6-F673-43B0-A1DE-A8AE6CF727D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{572C24BD-EBDD-4355-86D0-3872E4714DE8} = {B365D5A7-F4F1-4C45-9565-5F6CFC1134A4}
+		{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714} = {B365D5A7-F4F1-4C45-9565-5F6CFC1134A4}
+		{ACEEA07F-AF6C-4858-AC5C-11CEF567C8A9} = {4FDEDAD6-FCEC-4426-9A3B-086BF3C99CC0}
+		{629DFABA-604D-4EE2-8089-4DF535B1DAEE} = {4FDEDAD6-FCEC-4426-9A3B-086BF3C99CC0}
+		{AB62A6D6-F673-43B0-A1DE-A8AE6CF727D9} = {4FDEDAD6-FCEC-4426-9A3B-086BF3C99CC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E0308FF-C8D5-4700-951A-859CB9D4FD09}
+	EndGlobalSection
+EndGlobal

@@ -15,11 +15,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EA20D57F-BB3E-447A-80A2-14C04BAA665F}</ProjectGuid>
+    <ProjectGuid>{372B6DCD-25C6-4AE9-BC7D-9ADBF337F714}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAM.Core.Grasshopper.TMP</RootNamespace>
-    <AssemblyName>SAM.Core.Grasshopper.TMP</AssemblyName>
+    <RootNamespace>SAM.Core.Grasshopper.IoT</RootNamespace>
+    <AssemblyName>SAM.Core.Grasshopper.IoT</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -99,7 +99,7 @@
   <ItemGroup>
     <PackageReference Include="Grasshopper">
       <Version>6.32.20340.21001</Version>
-	  <ExcludeAssets>runtime</ExcludeAssets>
+      <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
@@ -133,6 +133,6 @@ copy "%25SAM_DIR%25\$(ProjectName).dll" "%25SAM_DIR%25\$(ProjectName).gha"
     <StartArguments>
     </StartArguments>
     <StartAction>Program</StartAction>
-    <DocumentationFile>..\..\build\SAM.Core.Grasshopper.TMP.xml</DocumentationFile>
+    <DocumentationFile>..\..\build\SAM.Core.Grasshopper.IoT.xml</DocumentationFile>
   </PropertyGroup>
 </Project>
